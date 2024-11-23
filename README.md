@@ -1,9 +1,8 @@
 # contributors
 
 ## Loay morad
-### User Class and Account Management
-1. Create an account
-2. Log in his account if the password provided was correct
+7. See posts of other users according to the posts’ privacy level
+12. A restricted friend of the user can see his public posts only
 
 ## Hisham
 3. Like/write posts
@@ -14,8 +13,8 @@
 6. Like/Reply to a comment
 
 ## Molly
-7. See posts of other users according to the posts’ privacy level
-12. A restricted friend of the user can see his public posts only
+1. Create an account
+2. Log in his account if the password provided was correct
 
 ## abdelrahman
 8. See the friendship between any two users by using + operator
