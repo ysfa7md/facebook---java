@@ -51,8 +51,7 @@
 3. The evaluation will be mainly based on the student’s ability to use and apply OOP concepts and the explanation of the code.
 4. You must deliver the Class Diagram for the project.
 5. You must apply exception handling.
-6. Using Files is mandatory (Not Database)
-7. Any project must have at least 8 classes
-8. Regarding files:
+6. Any project must have at least 8 classes
+7. Regarding files:
   - You must have only two functions for file reading and writing.
   - You should read data once at the beginning of your run then do your operations and access the code then save in files at the end of your program.
