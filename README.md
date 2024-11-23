@@ -1,3 +1,22 @@
+# instructions
+• A FB user does have an email, name, password, gender, and a birthdate, The user can write an endless number of posts.
+• A post has an ID, users’ comments, tagged users and it should have two privacy options (Public or Friends only).
+• A comment has an ID and users’ replies.
+• And each of the posts, comments, and replies do have a number of reactors or likers.
+• The user also can do more than one conversation.
+• Each conversation has an ID, comprises a number of messages and has a number of participants.
+• Each user can have any number of friends.
+• The user friends can be a regular friend or a restricted one.
+
+## classes
+- post
+- comment (inherit from post)
+- conversation (abstract)
+    - chat
+- user
+...
+
+
 # contributors
 
 ## Loay morad
@@ -27,3 +46,13 @@
 
 # Notes
 - all contributors must add the GUI from begiing with using javafx
+1. You should implement all concepts of OOP.
+2. Each member MUST work on at least one of the required classes besides file processing or GUI. (Individual marks)
+3. The evaluation will be mainly based on the student’s ability to use and apply OOP concepts and the explanation of the code.
+4. You must deliver the Class Diagram for the project.
+5. You must apply exception handling.
+6. Using Files is mandatory (Not Database)
+7. Any project must have at least 8 classes
+8. Regarding files:
+  - You must have only two functions for file reading and writing.
+  - You should read data once at the beginning of your run then do your operations and access the code then save in files at the end of your program.
