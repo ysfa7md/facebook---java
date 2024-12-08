@@ -1,27 +1,30 @@
 
 package facebook;
 
+
+
+
 import java.util.ArrayList;
 
 
 public class Person {
-    
-    
-      protected String name ; 
-      protected int id ; 
-      protected String date ;
-      protected String gender ; 
-      protected String email ; 
-      protected String password ; 
-    
-    
-      // Here its all posts and all its replies  for same person
-      protected ArrayList <String> posts_comments_likes = new ArrayList <> ();
-    
-    
-  
 
-    public Person(ArrayList <String> posts_comments_likes, String name, int id, String date, String gender, String email, String password) {
+
+    protected String name ;
+    protected int id ;
+    protected String date ;
+    protected String gender ;
+    protected String email ;
+    protected String password ;
+
+    // Here its all posts and all its replies  for same person
+    protected ArrayList <String> posts_comments_likes = new ArrayList <> ();
+    protected ArrayList <Integer> user_friends =new ArrayList<>();
+
+
+
+
+    public Person(ArrayList <String> posts_comments_likes, String name, int id, String date, String gender, String email, String password, ArrayList <Integer> user_friends) {
         this.posts_comments_likes = posts_comments_likes;
         this.name = name;
         this.id = id;
@@ -29,6 +32,7 @@ public class Person {
         this.gender = gender;
         this.email = email;
         this.password = password;
+        this.user_friends=user_friends;
     }
 
     public void setName(String name) {
@@ -86,12 +90,21 @@ public class Person {
     public ArrayList<String> getPosts_comments_likes() {
         return posts_comments_likes;
     }
-   
-       
-   
 
- 
-   
-    
-    
+    public ArrayList<Integer> getUser_friends(){
+        return user_friends;
+    }
+
+    public void setUser_friends(ArrayList<Integer> user_friends) {
+        this.user_friends=user_friends;
+    }
+
+
+
+
+
+
+
+
+
 }
