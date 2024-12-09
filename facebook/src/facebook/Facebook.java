@@ -38,6 +38,7 @@ public class Facebook extends Application {
     
 
     public static void main(String[] args) {
+        Persons.run(); 
         screenSize = Toolkit.getDefaultToolkit().getScreenSize();
         width = screenSize.getWidth();
         height = screenSize.getHeight()-70;
