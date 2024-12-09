@@ -37,8 +37,8 @@
             
            
             <HBox alignment="CENTER" spacing="10" style="-fx-padding: 10;">
-                <Button style="-fx-background-color: #3b5998; -fx-text-fill: white; -fx-font-size: 14;" text="Post" />
-                <Button style="-fx-background-color: gray; -fx-text-fill: white; -fx-font-size: 14;" text="Cancel" />
+                <Button onAction="#send" style="-fx-background-color: #3b5998; -fx-text-fill: white; -fx-font-size: 14;" text="Post" />
+                <Button onAction="#all_posts" style="-fx-background-color: gray; -fx-text-fill: white; -fx-font-size: 14;" text="Cancel" />
             </HBox>
         </VBox>
     </center>
