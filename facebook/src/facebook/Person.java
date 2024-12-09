@@ -18,14 +18,14 @@ public class Person {
     protected String password ;
 
     // Here its all posts and all its replies  for same person
-    protected ArrayList <String> posts_comments_likes = new ArrayList <> ();
+    protected ArrayList <String> posts_comments = new ArrayList <> ();
     protected ArrayList <Integer> user_friends =new ArrayList<>();
 
 
 
 
-    public Person(ArrayList <String> posts_comments_likes, String name, int id, String date, String gender, String email, String password, ArrayList <Integer> user_friends) {
-        this.posts_comments_likes = posts_comments_likes;
+    public Person(ArrayList <String> posts_comments, String name, int id, String date, String gender, String email, String password, ArrayList <Integer> user_friends) {
+        this.posts_comments = posts_comments;
         this.name = name;
         this.id = id;
         this.date = date;
@@ -59,8 +59,8 @@ public class Person {
         this.password = password;
     }
 
-    public void setPosts_comments_likes(ArrayList<String> posts_comments_likes) {
-        this.posts_comments_likes = posts_comments_likes;
+    public void setPosts_comments(ArrayList<String> posts_comments) {
+        this.posts_comments = posts_comments;
     }
 
     public String getName() {
@@ -87,8 +87,8 @@ public class Person {
         return password;
     }
 
-    public ArrayList<String> getPosts_comments_likes() {
-        return posts_comments_likes;
+    public ArrayList<String> getPosts_comments() {
+        return posts_comments;
     }
 
     public ArrayList<Integer> getUser_friends(){
